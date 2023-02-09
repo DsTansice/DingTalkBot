@@ -3,7 +3,7 @@ import time,requests,json
 from lxml import etree
 #获取小刀网线报
 def get_message():
-    url="https://www.x6d.com/html/34.html"
+    url="https://www.xiaodao1.com/html/34.html"
     rsp=requests.get(url=url)
     s=etree.HTML(rsp.text)
     print("log:网页状态码：",rsp.status_code)
